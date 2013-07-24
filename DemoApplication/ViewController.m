@@ -18,16 +18,14 @@
 {
     [super viewDidLoad];
     NSLog(@"this is hello world application");
+    NSLog(@"didReceiveMemoryWarning");
+    NSLog(@"another hotfix didReceiveMemoryWarning");
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    NSLog(@"didReceiveMemoryWarning");
-    NSLog(@"another hotfix didReceiveMemoryWarning");
-    
-    
     // Dispose of any resources that can be recreated.
 }
 
