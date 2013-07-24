@@ -25,6 +25,7 @@
 {
     [super didReceiveMemoryWarning];
     NSLog(@"didReceiveMemoryWarning");
+    NSLog(@"another hotfix didReceiveMemoryWarning");
     // Dispose of any resources that can be recreated.
 }
 
